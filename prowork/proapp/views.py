@@ -55,7 +55,7 @@ def search(request):
 
     return render(request,'index.html',context)
 
-
+#############################################################
 
 def searchCat(request):
     if request.method == 'POST':
